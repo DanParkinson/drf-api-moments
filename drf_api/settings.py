@@ -66,6 +66,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
+    '8000-danparkinso-drfapimomen-eto65tzkfxg.ws.codeinstitute-ide.net',
     'drf-api-momentswt.herokuapp.com'
     'localhost',
 ]
