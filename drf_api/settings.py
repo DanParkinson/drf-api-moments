@@ -63,12 +63,11 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG ='DEV' in os.environ
+DEBUG = True #'DEV' in os.environ
 
 ALLOWED_HOSTS = [
     'drf-api-momentswt-dec953943392.herokuapp.com',
     '8000-danparkinso-drfapimomen-eto65tzkfxg.ws.codeinstitute-ide.net',
-    'drf-api-momentswt.herokuapp.com'
     'localhost',
 ]
 
